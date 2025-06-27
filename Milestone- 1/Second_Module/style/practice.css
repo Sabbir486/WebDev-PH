@@ -1,0 +1,29 @@
+*{
+    margin: 20px;
+}
+
+header{
+    font-size: larger;
+    background-color: bisque;
+    width: 50%;
+}
+
+.blog{
+    border: 10px solid burlywood;
+    border-radius: 15px;
+    box-shadow: 10px 10px blueviolet;
+}
+
+h3{
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.list{
+    background-image: url('../images/Sabbir.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-size: contain; */
+    border: 10px solid gold;
+}
