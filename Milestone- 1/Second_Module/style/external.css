@@ -1,0 +1,28 @@
+h3{
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second{
+    /* display: none;
+    visibility: hidden; */
+}
+
+.blog{
+    margin: 50px;
+    border: 10px solid tomato;
+
+    box-shadow: 10px 10px 20px violet;
+}
+
+.spa{
+    border: 3px solid purple;
+    margin: 20px;
+    padding: 5px;
+}
+
+
+.list{
+    border: 10px solid blue;
+}
