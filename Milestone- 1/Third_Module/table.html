@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="style/nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="blog.html">Blog</a></li>
+                <li>
+                    <a href="form.html">Form</a>
+                    <ul class="dropdown">
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                    </ul>
+                </li>
+                <li><a href="table.html">Table</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>HTML Table</h1>
+        <table>
+            <caption>Employee Details</caption>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Name</th>
+                    <th>Company</th>
+                    <th>Salary</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Microsoft</td>
+                    <td>$1000</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Apple</td>
+                    <td>$2000</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Google</td>
+                    <td>$3000</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total Employee: 3</td>
+                    <td colspan="2">Total Salary: $6000</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <ul>
+            <li>Table: table</li>
+            <li>Table Head: thead</li>
+            <li>Table Body: tbody</li>
+            <li>Table Footer: tfoot</li>
+        </ul>
+    </main>
+    
+</body>
+</html>
