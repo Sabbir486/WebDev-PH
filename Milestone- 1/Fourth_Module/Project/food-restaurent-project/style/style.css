@@ -7,13 +7,31 @@
     padding: 0;
 }
 
+.btn-container{
+    text-align: center;
+}
+
+.btn{
+    padding: 14px 18px 14px 18px;
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+}
+
 #hero{
     background: linear-gradient(
         00deg,
         rgb(9, 9, 9) 3.482%,
         rgba(16, 16, 16, 0) 101.632%),
      url("../assets/hero-bg.png");
-     
+
     height: 919px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,6 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 #hero .hero-content{
@@ -36,6 +55,7 @@
     line-height: 38px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 #hero .hero-content .title{
@@ -46,6 +66,7 @@
     line-height: 50px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 14px;
 }
 
 #hero .hero-content .description{
@@ -57,4 +78,5 @@
     line-height: 16px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 32px;
 }
