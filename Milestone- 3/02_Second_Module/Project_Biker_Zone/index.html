@@ -40,9 +40,9 @@
      <header class="md:container mx-auto">
         
         <!-- Navbar -->
-        <div class="navbar bg-base-100 ">
+        <div class="navbar bg-base-100 ml-5">
             <div class="flex-1">
-                <a class="btn btn-ghost text-xl -mx-6">Biker Zone</a>
+                <a class="btn btn-ghost text-xl ">Biker Zone</a>
             </div>
             <div class="flex font-bold">
                 <ul class="menu menu-horizontal px-2 mx-8 ">
@@ -53,12 +53,12 @@
                 
                 </ul>
 
-                <button class="btn bg-[#E76F51] text-white">LogIn</button>
+                <button class="btn bg-[#E76F51] text-white mr-2">LogIn</button>
             </div>
         </div>
 
         <!-- Slider Carousel -->
-        <div class="carousel w-full bg-[#D9D9D9] lg:h-[400px]">
+        <div class="carousel w-full bg-[#D9D9D9] lg:h-[400px] mx-12">
             <!-- Slide-1 -->
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex flex-col md:flex-row items-center p-8 md:p-20 ">
@@ -77,7 +77,7 @@
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" class="btn btn-circle">❮</a>
-                    <a href="#slide2" class="btn btn-circle">❯</a>
+                    <a href="#slide2" class="btn btn-circle mr-5">❯</a>
                 </div>
             </div>
 
@@ -137,7 +137,7 @@
                 <h1 class="text-3xl font-bold text-center">Featured Bike In This Year</h1>
             </div>
 
-            <div class="flex flex-col md:flex-row items-center justify-center  gap-5 md:space-x-7 lg:space-x-67 mt-15">
+            <div class="flex flex-col md:flex-row items-center justify-center  gap-5 md:space-x-7 lg:space-x-40 mt-15">
                 <img class="w-full md:w-60 lg:w-1/3 max-w-xs" src="./images/others/latest1.png" alt="">
                 <img class="w-full md:w-60 lg:w-1/3 max-w-xs" src="./images/others/latest2.png" alt="">
                 <img class="w-full md:w-60 lg:w-1/3 max-w-xs" src="./images/others/latest3.png" alt="">
@@ -153,10 +153,10 @@
              </div>
 
             <!-- Cards -->
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12">
+             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12 p-16">
 
                 <!-- Card-1 -->
-             <div class="card bg-base-100  shadow-sm ">
+             <div class="card bg-base-100  shadow-sm p-12 bg-slate-100">
                 <figure>
                     <img
                     src="./images/others/latest1.png"
@@ -172,7 +172,7 @@
             </div>
 
             <!-- Card-2 -->
-             <div class="card bg-base-100  shadow-sm items-center">
+             <div class="card bg-base-100  shadow-sm  bg-slate-100 p-12">
                 <figure>
                     <img
                     src="./images/others/latest2.png"
@@ -189,7 +189,7 @@
 
 
             <!-- Card-3 -->
-             <div class="card bg-base-100  shadow-sm items-center">
+             <div class="card bg-base-100  shadow-sm  bg-slate-100 p-12">
                 <figure>
                     <img
                     src="./images/others/latest3.png"
@@ -207,6 +207,112 @@
              </div>
 
          </div>
+
+        <!-- Client Review -->
+         <section>
+
+            <!-- Text-section -->
+             <div>
+                <h2 class="text-4xl font-bold text-center">Happy <span class="text-[#E76F51]">Client says</span></h2>
+             </div>
+
+             <!-- Comments -->
+              <div class="mt-15 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center  ml-25 ">
+
+                <!-- Comment-1 -->
+                 <div class="">
+                    <div class="card bg-base-100 w-96 shadow-sm bg-blue-50">
+                        <figure class="px-10 pt-10">
+                            <img class="rounded-xl"
+                            src="./images/others/user-1.png"
+                            alt="Shoes"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+
+                            <div>
+                                <div class="rating">
+                                <input type="radio" class="mask mask-star-2 bg-orange-400" aria-label="1 star" checked="checked" />
+                                <input type="radio" class="mask mask-star-2 bg-orange-400" aria-label="2 star" checked="checked"  />
+                                <input type="radio" class="mask mask-star-2 bg-orange-400" aria-label="3 star" checked="checked" />
+                                <input type="radio" class="mask mask-star-2 bg-orange-400" aria-label="4 star" checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                                </div>
+                            </div>
+
+                            <h3 class="text-[#23A6F0]">Regina Miles</h3>
+                            <h3 class="font-bold">Banker</h3>
+                            
+                        </div>
+                    </div>
+                 </div>
+
+                <!-- Comment-2 -->
+                 <div>
+                    <div class="card bg-base-100 w-96 shadow-sm bg-blue-50">
+                        <figure class="px-10 pt-10">
+                            <img class="rounded-xl"
+                            src="./images/others/user-2.png"
+                            alt="Shoes"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.</p>
+
+                            <div>
+                                <div class="rating">
+                                <input type="radio" name="rating" class="mask mask-star-2 bg-orange-400" aria-label="1 star" checked="checked" />
+                                <input type="radio" name="rating" class="mask mask-star-2 bg-orange-400" aria-label="2 star" checked="checked" />
+                                <input type="radio" name="rating" class="mask mask-star-2 bg-orange-400" aria-label="3 star" checked="checked" />
+                                <input type="radio" name="rating" class="mask mask-star-2 bg-orange-400" aria-label="4 star" checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                                </div>
+                            </div>
+
+                            <h3 class="text-[#23A6F0]">Regina Miles</h3>
+                            <h3 class="font-bold">Banker</h3>
+                            
+                        </div>
+                    </div>
+                 </div>
+
+
+                <!-- Comment-3 -->
+                 <div>
+                    <div class="card bg-base-100 w-96 shadow-sm bg-blue-50">
+                        <figure class="px-10 pt-10">
+                            <img class="rounded-xl"
+                            src="./images/others/user-3.png"
+                            alt="Shoes"/>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <p>Slate helps you see how 
+                            many more days you need 
+                            to work to reach your financial 
+                            goal for the month and year.
+                            <div>
+                                <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="1 star" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="2 star" checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="3 star" checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="4 star" checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" aria-label="5 star" />
+                                </div>
+                            </div>
+
+                            <h3 class="text-[#23A6F0]">Regina Miles</h3>
+                            <h3 class="font-bold">Banker</h3>
+                            
+                        </div>
+                    </div>
+                 </div>
+              </div>
+         </section>
 
         <!-- FAQ -->
          <div class="my-24">
@@ -247,16 +353,15 @@
 
     <!-- Footer Section -->
      <footer>
-        <footer class="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
-    <aside>
-        
-        <p>
-        ACME Industries Ltd.
-        <br />
-        Providing reliable tech since 1992
-        </p>
+        <footer class="flex footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+    <aside class="flex-1">
+        <h3>Download Now <span class="ml-10">License</span></h3>
+        <h3>About <span class="ml-4">Features</span> <span class="ml-4">Pricing</span> <span class="ml-4">Cartoons</span> <span class="ml-4">Help</span></h3>
+        <br>
+        <p>© 2020 bike. All rights reserved</p>
     </aside>
-    <nav>
+
+    <nav class="flex-1 ml-200">
         <h6 class="footer-title">Get the App</h6>
         <div class="grid grid-cols-1 gap-4">
         <a>
