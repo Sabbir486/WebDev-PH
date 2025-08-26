@@ -32,7 +32,7 @@ function arrEven(arr) {
     
 }
 
-const res = arrEven([1,2,4,5,9,7]);
+const res = arrEven([1,2, 10,4,5,9,7]);
 
 let result = 0;
 for(const res1 of res){
