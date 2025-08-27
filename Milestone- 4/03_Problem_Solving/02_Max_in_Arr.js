@@ -16,7 +16,7 @@ const heights = [65,68,71,75,58,65]
 
  const Max = getMax(heights);
  console.log(Max);
- console.log();
+ console.log( );
  
 
 //  Min
