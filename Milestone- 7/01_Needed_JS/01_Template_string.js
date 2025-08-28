@@ -19,10 +19,9 @@ sum(1,2,3,4,5);
 console.log();
 
 
-// (...) --> These three dots are called spread Operator
+// (...) --> These three dots are called Spread Operator
 
 const number = [1,2,3,4,5,6];
-
 const newNumber = [...number, 9,10,11];
 
 console.log(newNumber);
