@@ -5,29 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tour of DOM</title>
     <link rel="stylesheet" href="styles/style.css">
+
+    <style>
+        #fru-head{
+        color:greenyellow;
+       }
+
+       .place{
+        color: blue;
+       }
+    </style>
 </head>
 <body>
     <header>
         <h1>Welcome to my DOM</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, officia in excepturi ut consequuntur hic? Suscipit fuga eveniet dolores, quia et fugit natus minus velit ad distinctio nihil pariatur repellendus?
+        </p>
     </header>
 
     <main>
-        <h1>Awesome DOM</h1>
+        <section>
+            <h1>Awesome DOM</h1>
         <ul>
             <li>Jalali Set</li>
             <li>Shafayat</li>
             <li>Sabbir</li>
         </ul>
+        </section>
+
+        <section>
+            <h1 id="fru-head">Fruits I Like</h1>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Carrot</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>Places I like to visit</h1>
+            <ul>
+                <li class="place">Sundarban</li>
+                <li class="place">Elament</li>
+                <li class="place">Dhaka</li>
+                <li>Sylhet</li>
+            </ul>
+        </section>
     </main>
 
     <script src="js/dom.js"></script>
     <script>
-        const student = {
-            name: 'Abul',
-            section: 'c',
-            roll: 10
+        const fruitsTitle = document.getElementById('fru-head');
+        fruitsTitle.innerText = 'Fruits Changed by Sabbir';
+        console.log(fruitsTitle);
+        
 
+        const placess = document.getElementsByClassName('place');
+        for(const places of placess){
+            console.log(places.innerText);
+            
         }
+        
     </script>
 
 </body>
