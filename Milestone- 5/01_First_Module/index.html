@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="styles/style.css">
 
     <style>
+        .fruits-container li{
+            color: aqua;
+        }
+
         #fru-head{
         color:greenyellow;
        }
@@ -33,7 +37,7 @@
         </ul>
         </section>
 
-        <section>
+        <section class="fruits-container">
             <h1 id="fru-head">Fruits I Like</h1>
             <ul>
                 <li>Apple</li>
@@ -55,16 +59,32 @@
 
     <script src="js/dom.js"></script>
     <script>
+        // getElementById
+
         const fruitsTitle = document.getElementById('fru-head');
         fruitsTitle.innerText = 'Fruits Changed by Sabbir';
         console.log(fruitsTitle);
         
+        // getElementsByClassName***
 
         const placess = document.getElementsByClassName('place');
         for(const places of placess){
             console.log(places.innerText);
             
         }
+
+        //querySelectorAll***
+
+        const someLi = document.querySelectorAll('.fruits-container li');
+        for(li of someLi){
+            console.log(li.innerText);
+            
+        }
+
+        // querySelector
+
+        const Li1 = document.querySelector('.fruits-container li');
+        console.log(Li1.innerText); //Single element. That's why for loop not used in this case.
         
     </script>
 
