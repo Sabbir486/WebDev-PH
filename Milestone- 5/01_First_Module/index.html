@@ -59,13 +59,13 @@
 
     <script src="js/dom.js"></script>
     <script>
-        // getElementById
+        //Option-1: getElementById
 
         const fruitsTitle = document.getElementById('fru-head');
         fruitsTitle.innerText = 'Fruits Changed by Sabbir';
         console.log(fruitsTitle);
         
-        // getElementsByClassName***
+        //Option-2: getElementsByClassName***
 
         const placess = document.getElementsByClassName('place');
         for(const places of placess){
@@ -73,7 +73,7 @@
             
         }
 
-        //querySelectorAll***
+        //Option-3: querySelectorAll***
 
         const someLi = document.querySelectorAll('.fruits-container li');
         for(li of someLi){
@@ -81,7 +81,7 @@
             
         }
 
-        // querySelector
+        //Option-4: querySelector
 
         const Li1 = document.querySelector('.fruits-container li');
         console.log(Li1.innerText); //Single element. That's why for loop not used in this case.
