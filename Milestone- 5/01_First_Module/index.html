@@ -65,7 +65,7 @@
         fruitsTitle.innerText = 'Fruits Changed by Sabbir';
         console.log(fruitsTitle);
         
-        //Option-2: getElementsByClassName***
+        //Option-2: getElementsByClassName(***)
 
         const placess = document.getElementsByClassName('place');
         for(const places of placess){
@@ -73,7 +73,7 @@
             
         }
 
-        //Option-3: querySelectorAll***
+        //Option-3: querySelectorAll(***)
 
         const someLi = document.querySelectorAll('.fruits-container li');
         for(li of someLi){
@@ -81,7 +81,7 @@
             
         }
 
-        //Option-4: querySelector
+        //Option-4: querySelector(***)
 
         const Li1 = document.querySelector('.fruits-container li');
         console.log(Li1.innerText); //Single element. That's why for loop not used in this case.
