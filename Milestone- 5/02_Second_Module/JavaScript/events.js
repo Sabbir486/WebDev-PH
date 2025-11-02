@@ -18,3 +18,8 @@ console.log('External File');
         btnMakeBlue.onclick = function makeBlue(){
             document.body.style.backgroundColor = 'blue';
         }
+
+
+// Option-4: addEventListener --->
+
+        
