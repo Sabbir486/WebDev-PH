@@ -40,6 +40,24 @@
         
     </script> -->
 
+    <!-- Option-4: addEventListener (*******) -->
+     <button id="btn-make-green">Make Green</button>
+    <script>
+        // document.getElementbyId().addEventListener('event type', handler)
+
+        document.getElementById('btn-make-green').addEventListener('click', function makeGreen(){
+            document.body.style.backgroundColor = 'green';
+            
+        })
+    </script>
+
+    <button id="btn-make-pink">Make Pink</button>
+    <script>
+        document.getElementById('btn-make-pink').addEventListener('mouseover', function makePink(){
+            document.body.style.backgroundColor = 'pink';
+        })
+    </script>
+
     <script src="JavaScript/events.js"></script>
     
 </body>
