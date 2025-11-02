@@ -6,7 +6,34 @@
     <title>Event Handler</title>
 </head>
 <body>
-    
+    <h1 id="title-text">Event Handler</h1>
+    <button id="btn-update-title">Update Title</button>
+    <br>
+    <br>
+
+    <!-- Handle Input Text -->
+     <p id="nameP">No Name</p>
+     <input id="input-name" placeholder="Your Name" type="text">
+     <button id="update-btn">Update</button>
+
+    <script>
+        // 1. set eventListener
+        document.getElementById('update-btn').addEventListener('click', function(){
+            console.log('Update Button Clicked');
+
+            // 2. Get the text from the input  field
+            const inputName = document.getElementById('input-name');
+            console.log(inputName);
+            const name = inputName.value;
+            console.log('name', name);
+            
+            // 3. set the name
+            const nameP = document.getElementById('nameP');
+            nameP.innerText = name;
+            
+            
+        })
+    </script>
 
     <script src="JavaScript/handler.js"></script>
 </body>
