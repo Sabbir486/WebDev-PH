@@ -12,19 +12,19 @@ document.getElementById("login-btn").addEventListener("click", function(event){
     
     if(accountNumber.length == 5){
         if(parseInt(pinNumber) === 1234){  //parseInt => Covert String to a Int
-            console.log("Valid");
+            window.location.href = './02_page.html';
         
         }
 
         else{
-            console.log("Not Valid Pin");
+            alert("Not Valid Pin");
             
         }
         
     }
 
     else{
-        console.log("Not Valid Account Number");
+        alert("Not Valid Account Number");
         
     }
 
