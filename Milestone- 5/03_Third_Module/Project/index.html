@@ -18,30 +18,32 @@
 
             </div>
         </nav>
-    </header>
+        </header>
 
     <!-- Login Section -->
-     <section>
-        <div class="hero bg-base-200">
-            <div class="hero-content flex-col lg:flex-row-reverse">                
-                <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
-                    <div class="card-body">
-                        <fieldset class="fieldset">
-                        <label class="label">Mobile Number</label>
-                        <input type="number" class="input" placeholder="Enter Your Number" />
-                        <label class="label">4 Digit Pin</label>
-                        <input type="text" class="input" placeholder="Enter 4 Digit Pin" />
+        <section>
+            <div class="">
+                <div class="hero-content flex-col lg:flex-row-reverse">                
+                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                            <fieldset class="fieldset">
+                                <label class="label">Mobile Number</label>
+                                <input type="number" class="input" placeholder="Enter Your Number" required />
+                                <label class="label">4 Digit Pin</label>
+                                <input type="text" class="input" placeholder="Enter 4 Digit Pin" required />
 
-                        <button class="btn btn-neutral mt-4 bg-blue-500">Login</button>
-                        </fieldset>
+                                <button id="login-btn" class="btn btn-neutral mt-4 bg-blue-500">Login</button>
+                            </fieldset>
 
+                        </form>
                     </div>
                 </div>
             </div>
-        </div>
-     </section>
+        </section>
 
     </section>    
+
+    <script src="./script/login.js"></script>
     
 </body>
 
