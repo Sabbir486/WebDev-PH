@@ -10,7 +10,7 @@ document.getElementById('add-money').addEventListener('click', function(event){
 
     if(parseInt(pin) === 1234){
         const sum = convertedAmount + convertedBalance;
-        document.getElementById('money-dollar').innerText = sum;
+        document.getElementById('money-dollar').innerText  = sum;
         
     }
 
