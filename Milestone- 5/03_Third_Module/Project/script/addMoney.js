@@ -29,17 +29,20 @@ document.getElementById('add-money').addEventListener('click', function(event){
     // getInputValueByID();
     const amount = getInputValueByID("amount");
     const pin = getInputValueByID("pin-number");
-    const account = document.getElementById('account').value;
-    const convertAccount = parseInt(account);
+    const account = document.getElementById('account-no').value;
+
+    const balance = getInnerTextByID("money-dollar");
     
-    if(convertAccount.length === 5){
+    if(account.length === 5){
         if(pin === 1234){
-            
+            const sum = balance + amount;
+            // document.getElementById('money-dollar').innerText = sum;
+            setInnerTextByIdAndValue('money-dollar', sum);
         
         }
 
         else{
-            console.log("Not Possible Adding");
+            console.log("Pin is not correct");
             
         }
     }
