@@ -27,5 +27,25 @@
 document.getElementById('add-money').addEventListener('click', function(event){
     event.preventDefault();
     // getInputValueByID();
+    const amount = getInputValueByID("amount");
+    const pin = getInputValueByID("pin-number");
+    const account = document.getElementById('account').value;
+    const convertAccount = parseInt(account);
+    
+    if(convertAccount.length === 5){
+        if(pin === 1234){
+            
+        
+        }
 
+        else{
+            console.log("Not Possible Adding");
+            
+        }
+    }
+
+    else{
+        console.log("Account Number is not correct");
+        
+    }
 })
