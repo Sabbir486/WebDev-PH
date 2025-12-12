@@ -11,3 +11,7 @@ function getInnerTextByID(id){
     return convertValue;
 }
 
+function setInnerTextByIdAndValue(id, value){
+    document.getElementById(id).innerText = value;
+}
+
