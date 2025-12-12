@@ -1,6 +1,7 @@
 // alert()
 
 document.getElementById('cashout').style.display = "none"; //by-default
+document.getElementById('paybill').style.display = "none"; //by-default
 
 document.getElementById('add-money-box').addEventListener('click',function() {
     document.getElementById('cashout').style.display = "none";
