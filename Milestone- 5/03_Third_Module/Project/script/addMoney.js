@@ -29,6 +29,7 @@ document.getElementById('add-money').addEventListener('click', function(event){
     // getInputValueByID();
     const amount = getInputValueByID("amount");
     const pin = getInputValueByID("pin-number");
+    
     const account = document.getElementById('account-no').value;
 
     const balance = getInnerTextByID("money-dollar");
