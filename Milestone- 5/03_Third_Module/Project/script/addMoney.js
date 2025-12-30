@@ -33,6 +33,11 @@ document.getElementById('add-money').addEventListener('click', function(event){
     const account = document.getElementById('account-no').value;
 
     const balance = getInnerTextByID("money-dollar");
+
+    if(amount < 0){
+        alert("Not Applicable");
+        return;
+    }
     
     if(account.length === 5){
         if(pin === 1234){
