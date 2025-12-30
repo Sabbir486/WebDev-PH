@@ -39,6 +39,15 @@ document.getElementById('add-money').addEventListener('click', function(event){
             const sum = balance + amount;
             // document.getElementById('money-dollar').innerText = sum;
             setInnerTextByIdAndValue('money-dollar', sum);
+
+            const container = document.getElementById("transaction-container");
+            const p = document.createElement("p");
+            p.innerText = `
+            added ${amount} from ${account} account
+            `
+
+            container.appendChild(p);
+            
         
         }
 
