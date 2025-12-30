@@ -12,6 +12,15 @@ document.getElementById('cashout-btn').addEventListener('click', function(event)
         if(pin === 1234){
             reduce = balance - amount;
             setInnerTextByIdAndValue('money-dollar', reduce);
+
+            const container = document.getElementById("transaction-container");
+
+            const p = document.createElement("p");
+            p.innerText = `
+            cashout ${amount} from ${accountNumber} account
+            `
+
+            container.appendChild(p);
         }
 
         else{
