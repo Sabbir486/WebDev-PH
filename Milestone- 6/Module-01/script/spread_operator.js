@@ -1,3 +1,5 @@
+// Array
+
 const friends = ['sa', 'ra', 'ta'];
 console.log(...friends); //... -> spread operator
 
