@@ -17,7 +17,8 @@ class Product{
     }
 }
 
-const iphone = new Product('iphone', 1200, 'apple', 'rony');
+const iphone = new Product('iphone', 1200, 'apple', 'Rony');
+const xioami = new Product('Readmi', 1500, 'Xioami', 'Sabbir');
 
 iphone.details();
 // console.log(iphone);
