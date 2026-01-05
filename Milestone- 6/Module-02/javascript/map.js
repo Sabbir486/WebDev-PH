@@ -1,4 +1,4 @@
-// Map --> Loop --> Always Return an Arrow
+// Map --> Loop --> Always Return an new Array
 
 const numbers = [1,2,3,4,5,6,7];
 
