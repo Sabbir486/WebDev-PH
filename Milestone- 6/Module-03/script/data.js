@@ -1,3 +1,3 @@
-const name = 'sabbir'; //Primitive
+const name = 'sabbir'; //Primitive -- Static
 
-const person = ['sa', 25]; //Non-primitive
+const person = ['sa', 25]; //Non-primitive -- Variable
