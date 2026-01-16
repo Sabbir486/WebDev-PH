@@ -10,6 +10,6 @@ function sum(a,b,c){
     
 }
 
-sum(10,20,30);
+sum(10,20,30);  //Arguments
 
 console.log(sum.length);
