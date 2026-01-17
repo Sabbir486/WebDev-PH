@@ -15,3 +15,10 @@ const newPerson = JSON.stringify(person);
 console.log(newPerson);
 console.log(typeof newPerson); //Object converted into String
 
+
+// String to Object
+
+const newPerson2 = JSON.parse(newPerson);
+
+console.log(newPerson2);
+
