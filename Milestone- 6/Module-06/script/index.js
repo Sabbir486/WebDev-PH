@@ -30,8 +30,6 @@ function displayCategories(categories){
         categoryContainer.append(categoryDiv);
     }
 
-    
-    
 }
 
 loadCategories();
