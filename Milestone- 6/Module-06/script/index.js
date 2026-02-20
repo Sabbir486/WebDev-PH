@@ -140,7 +140,7 @@ const displayVideos=(videos) => {
 
             <div class="intro">
                 <h2 class="text-sm font-semibold">Midnight Serenade</h2>
-                <p class="text-sm text-gray-400 flex gap-1">${vid.authors[0].profile_name} <img class="w-5 h-5" src="https://img.icons8.com/?size=32&id=6xO3fnY41hu2&format=png" alt=""></p>
+                <p class="text-sm text-gray-400 flex gap-1">${vid.authors[0].profile_name} ${vid.authors[0].verified == true ? `<img class="w-5 h-5" src="https://img.icons8.com/?size=32&id=6xO3fnY41hu2&format=png" alt="">` : ``}</p>
 
                 <p class="text-sm text-gray-400">${vid.others.views}</p>
             </div>
